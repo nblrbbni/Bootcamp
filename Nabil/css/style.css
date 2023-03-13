@@ -503,21 +503,23 @@ section{
 
 .site-footer
 {
-  background-color:#26272b;
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
   color:#737373;
 }
+
 .site-footer hr
 {
-  border-top-color:#bbb;
-  opacity:0.5
+  border-top-color:white;
+  opacity:5px
 }
+
 .site-footer hr.small
 {
   margin:20px 0
 }
+
 .site-footer h6
 {
   color:#fff;
@@ -526,8 +528,10 @@ section{
   margin-top:5px;
   letter-spacing:2px
 }
+
 .site-footer a
 {
+    
   color:#737373;
 }
 .site-footer a:hover
@@ -650,12 +654,11 @@ section{
   }
 }
 
-/* .footer{
+.footer{
     background: var(--black);
-    text-align: center;
 }
 
-.footer .share{
+/*.footer .share{
     padding: 1rem 0;
 }
 
@@ -765,7 +768,7 @@ section{
 }
 
 .products .box-container .box .image img{
-    height: 25rem ;
+    height: 40rem ;
 }
 
 .products .box-container .box .content h3{
@@ -795,4 +798,43 @@ section{
 
 .products .box-container .box .icons a{
     text-decoration: none;
+}
+
+.menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+}
+
+.menu .box-container .box{
+    padding:5rem;
+    text-align: center;
+    border: var(--border);
+}
+
+.menu .box-container .box img{
+    height: 10rem;
+}
+
+.menu .box-container .box h3{
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.menu .box-container .box .price{
+    color: #fff;
+    font-size: 2.5rem;
+    padding: 5rem 0;
+}
+.menu .box-container .box .price span{
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: line-through;
+}
+.menu .box-container .box:hover{
+    background: #fff;
+}
+.menu .box-container .box:hover > *{
+    color: var(--black);
 }
