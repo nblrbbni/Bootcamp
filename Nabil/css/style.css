@@ -1258,3 +1258,10 @@ section{
     font-size: 1.5rem;
     color: var(--main-color);
 }
+
+.read-more-blogs .container .row .col-4 h3{
+    margin-top: 6rem;
+    font-size: 55px;
+    text-transform: uppercase;
+    color: #fff;
+}
