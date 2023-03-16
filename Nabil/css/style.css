@@ -196,7 +196,7 @@ section{
 }
 
 /* Media qurey section */
-@media screen and (min-width: 768px) and (max-width: 1400px) {
+@media screen and (min-width: 1000px) and (max-width: 3000px) {
     .navTrigger{
         display: none;
     }
@@ -204,7 +204,7 @@ section{
 
 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1000px) {
     .nav div.logo {
         margin-left: 15px;
     }
@@ -242,9 +242,16 @@ section{
         display: block;
     }
 
-
+    .navTrigger{
+        right: 100px;
+    }
 }
 
+@media screen and (max-width: 500px){
+    .navTrigger{
+        right: 60px;
+    }
+}
 
 /* Animation */
 .navTrigger {
@@ -253,7 +260,7 @@ section{
     height: 25px;
     margin: auto;
     position: absolute;
-    right: 30px;
+    
     top: 0;
     bottom: 0;
 }
