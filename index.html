@@ -31,7 +31,7 @@
               <li><a style="font-family: montserrat; text-transform: uppercase; font-size: 15px;" href="#home">Home</a></li>
               <li><a style="font-family: montserrat; text-transform: uppercase; font-size: 15px;" href="#about">About</a></li>
               <li><a style="font-family: montserrat; text-transform: uppercase; font-size: 15px;" href="#products">Products</a></li>
-              <li><a style="font-family: montserrat; text-transform: uppercase; font-size: 15px;" href="#review">Review</a></li>
+              <li><a style="font-family: montserrat; text-transform: uppercase; font-size: 15px;" href="#testimonials">Review</a></li>
               <li><a style="font-family: montserrat; text-transform: uppercase; font-size: 15px;" href="#contact">Store</a></li>
               <li><a style="font-family: montserrat; text-transform: uppercase; font-size: 15px;" href="#blogs">Blogs</a></li>
           </ul>
@@ -244,7 +244,7 @@
 <!-- products section ends -->
 
 <!-- review section starts  -->
-<section id="testimonials">
+<section class="review" id="testimonials">
   <h1 class="heading"> customer's <span>review</span></h1>  
   <!--testimonials-box-container------>
   <div class="testimonial-box-container">
@@ -430,7 +430,7 @@
 <section class="blogs" id="blogs">
 
   <h1 class="heading">our <span>blogs</span> </h1>
-  <div class="box-container">
+  <!-- <div class="box-container">
     <div class="box">
       <div class="image">
         <img src="images/blogs-1.jpg" alt="">
@@ -466,8 +466,63 @@
         <a href="read-more-2.html" class="btn">Read More</a>
       </div>
     </div>
+  </div> -->
 
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="box-container" style="margin-bottom: 5rem;">
+          <div class="box">
+            <div class="image">
+              <img src="images/blogs-1.jpg" alt="">
+            </div>
+            <div class="content">
+              <a href="read-more.html" class="title">What are the health benefits of coffee</a>
+              <span>by admin / 3rd April, 2023</span>
+              <p>Learn about the benefits of coffee.</p>
+              <a href="read-more.html" class="btn">Read More</a>
+            </div>
+          </div> 
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="box-container" style="margin-bottom: 5rem;">
+          <div class="box">
+            <div class="image">
+              <img src="images/blogs-2.jpg" alt="">
+            </div>
+            <div class="content">
+              <a href="read-more.html" class="title">The difference between Robusta and Arabica Coffee</a>
+              <span>by admin / 4th April, 2023</span>
+              <p>Coffee Fans Must Know!</p>
+              <a href="read-more.html" class="btn">Read More</a>
+            </div>
+          </div> 
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="box-container" style="margin-bottom: 5rem;">
+          <div class="box">
+            <div class="image">
+              <img src="images/blogs-3.jpg" alt="">
+            </div>
+            <div class="content">
+              <a href="read-more.html" class="title">What are the most coffee-loving countries in the world</a>
+              <span>by admin / 5th April, 2023</span>
+              <p>Is your country on this list?</p>
+              <a href="read-more.html" class="btn">Read More</a>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>
   </div>
+
 </section>
 <!-- blogs section end -->
 
