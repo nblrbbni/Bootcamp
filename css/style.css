@@ -908,6 +908,95 @@ section{
 }
 /* Media footer css */
 
+/* Read-more-blogs-3 css */
+.read-more-blogs-3 .row{
+    display: flex;  
+    flex-wrap: wrap;
+    margin-top: 10rem;
+}
+
+.read-more-blogs-3 .row .image{
+    flex: 1 1 45rem;
+}
+
+.read-more-blogs-3 .row .image img{
+    width: 100%;
+}
+
+.read-more-blogs-3 .row .content{
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+
+.read-more-blogs-3 .row .content h3{
+    margin-top: 5rem;
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.read-more-blogs-3 .para-blogs .para-head{
+    color: #fff; 
+    font-size: large; 
+    margin-top: 7rem;
+    text-align: justify;
+}
+
+.read-more-blogs-3 .para-blogs .para p{
+    color: #fff; 
+    font-size: large; 
+    text-transform: initial;
+}
+/* Read-more-blogs-3 css */
+
+/* Read-more-blogs css */
+.read-more-blogs .row{
+    display: flex;  
+    flex-wrap: wrap;
+    margin-top: 10rem;
+}
+
+/* Read-more-blogs-2 css */
+.read-more-blogs-2 .row{
+    display: flex;  
+    flex-wrap: wrap;
+    margin-top: 10rem;
+}
+
+.read-more-blogs-2 .row .image{
+    flex: 1 1 45rem;
+}
+
+.read-more-blogs-2 .row .image img{
+    width: 100%;
+}
+
+.read-more-blogs-2 .row .content{
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+
+.read-more-blogs-2 .row .content h3{
+    margin-top: 3rem;
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.read-more-blogs-2 .para-blogs .para-head{
+    color: #fff; 
+    font-size: large; 
+    margin-top: 7rem;
+    text-align: justify;
+}
+
+.read-more-blogs-2 .para-blogs .para p{
+    color: #fff; 
+    font-size: large; 
+    text-transform: initial;
+}
+/* Read-more-blogs-2 css */
+
 /* Read-more-blogs css */
 .read-more-blogs .row{
     display: flex;  
