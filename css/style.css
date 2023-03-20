@@ -448,6 +448,8 @@ section{
 .about .content p{
     text-align: justify;
     text-transform: initial;
+    color: #fff;
+    font-weight: 300;
 }
 
 .about .row{
