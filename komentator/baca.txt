@@ -1,0 +1,12 @@
+# baca komentar projek
+
+1. Dalam branch, pastikan rapih dan sesuai dengan kaidah perkodingan.
+2. Jangan melakukan pembuatan kodingan yang tidak perlu (kerapihan utama)
+3. Proyek yang dikerjakan harus menerima penilaian jika kurang dari tanggal 27 maret belum selesai (apa adanya)
+
+
+# penilain sementara proyek
+
+1. Ambigu folder, buatlah folder yang sesuai dengan yang dibutuhkan.
+2. Buat file dan folder yang ingin digunakan saja, hapus file-file yang membuat github menjadi tidak rapih (masuk penilaian)
+3. Lakukan kombinasi dengan benar sesama tim (komunikasi penting)
